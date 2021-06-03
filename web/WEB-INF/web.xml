@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>adminlogin</servlet-name>
+        <servlet-class>servlet.user.AdminLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>adminlogin</servlet-name>
+        <url-pattern>/adminlogin</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>admin_douserselect</servlet-name>
+        <servlet-class>servlet.user.DoUserSelect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_douserselect</servlet-name>
+        <url-pattern>/admin_douserselect</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>admin_douserupdate</servlet-name>
+        <servlet-class>servlet.user.DoUserUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_douserupdate</servlet-name>
+        <url-pattern>/admin_douserupdate</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>admin_douserdel</servlet-name>
+        <servlet-class>servlet.user.DoUserDel</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_douserdel</servlet-name>
+        <url-pattern>/admin_douserdel</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_docateupdate</servlet-name>
+        <servlet-class>servlet.cate.DoCateUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_docateupdate</servlet-name>
+        <url-pattern>/admin_docateupdate</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>admin_douseradd</servlet-name>
+        <servlet-class>servlet.user.DoUserAdd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_douseradd</servlet-name>
+        <url-pattern>/admin_douseradd</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>admin_doproductadd</servlet-name>
+        <servlet-class>servlet.product.DoProductAdd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_doproductadd</servlet-name>
+        <url-pattern>/admin_doproductadd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_productselect</servlet-name>
+        <servlet-class>servlet.product.ProductSelect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_productselect</servlet-name>
+        <url-pattern>/admin_productselect</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_toproductadd</servlet-name>
+        <servlet-class>servlet.product.ToProductAdd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_toproductadd</servlet-name>
+        <url-pattern>/admin_toproductadd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_doproductdel</servlet-name>
+        <servlet-class>servlet.product.DoProductDel</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_doproductdel</servlet-name>
+        <url-pattern>/admin_doproductdel</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_doproductupdate</servlet-name>
+        <servlet-class>servlet.product.DoProductUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_doproductupdate</servlet-name>
+        <url-pattern>/admin_doproductupdate</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>admin_toproductupdate</servlet-name>
+        <servlet-class>servlet.product.ToProductUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_toproductupdate</servlet-name>
+        <url-pattern>/admin_toproductupdate</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_cateselect</servlet-name>
+        <servlet-class>servlet.cate.CateSelect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_cateselect</servlet-name>
+        <url-pattern>/admin_cateselect</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>admin_docateadd</servlet-name>
+        <servlet-class>servlet.cate.DoUserCate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_docateadd</servlet-name>
+        <url-pattern>/admin_docateadd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_docatedel</servlet-name>
+        <servlet-class>servlet.cate.DoCateDel</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_docatedel</servlet-name>
+        <url-pattern>/admin_docatedel</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_tocateadd</servlet-name>
+        <servlet-class>servlet.cate.ToCateAdd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_tocateadd</servlet-name>
+        <url-pattern>/admin_tocateadd</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_tocateupdate</servlet-name>
+        <servlet-class>servlet.cate.ToCateUpdate</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_tocateupdate</servlet-name>
+        <url-pattern>/admin_tocateupdate</url-pattern>
+    </servlet-mapping>
+
+
+
+
+    <servlet>
+        <servlet-name>salecartselect</servlet-name>
+        <servlet-class>servlet.cart.SaleCartSelect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>salecartselect</servlet-name>
+        <url-pattern>/salecartselect</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>saleuserselect</servlet-name>
+        <servlet-class>servlet.cart.SaleCartUserSelect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>saleuserselect</servlet-name>
+        <url-pattern>/saleuserselect</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>admin_cartselect</servlet-name>
+        <servlet-class>servlet.cart.CartSelect</servlet-class>
+      </servlet>
+      <servlet-mapping>
+           <servlet-name>admin_cartselect</servlet-name>
+           <url-pattern>/admin_cartselect</url-pattern>
+       </servlet-mapping>
+
+    <servlet>
+        <servlet-name>admin_cartuserselect</servlet-name>
+        <servlet-class>servlet.cart.CartUserSelect</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin_cartuserselect</servlet-name>
+        <url-pattern>/admin_cartuserselect</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>cartadd</servlet-name>
+        <servlet-class>servlet.cart.CartAdd</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>cartadd</servlet-name>
+        <url-pattern>/cartadd</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>EncodingFilter</filter-name>
+        <filter-class>filter.EncodingFilter</filter-class><!--全路径 从根包开始一直到类名-->
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern> <!--*即为过滤所有-->
+    </filter-mapping>
+
+
+
+</web-app>
